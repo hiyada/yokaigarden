@@ -6,6 +6,7 @@ public class RepeatBackground : MonoBehaviour
 
     private BoxCollider2D groundCollider;       //This stores a reference to the collider attached to the Ground.
     private float groundHorizontalLength;       //A float to store the x-axis length of the collider2D attached to the Ground GameObject.
+    private int backgroundXScale = 5;           //This is the x transform scale
 
     //Awake is called before Start.
     private void Awake()
@@ -13,7 +14,7 @@ public class RepeatBackground : MonoBehaviour
         //Get and store a reference to the collider2D attached to Ground.
         groundCollider = GetComponent<BoxCollider2D>();
         //Store the size of the collider along the x axis (its length in units).
-        groundHorizontalLength = groundCollider.size.x;
+        groundHorizontalLength = (groundCollider.size.x*backgroundXScale);
     }
 
     //Update runs once per frame
