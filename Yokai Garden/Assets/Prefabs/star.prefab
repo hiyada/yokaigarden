@@ -80,6 +80,10 @@ MonoBehaviour:
   starXMax: 10
   starYMin: 0
   starYMax: 10
+  stars: []
+  currentStar: 0
+  gameOver: 0
+  starPoolPosition: {x: -15, y: -25}
 --- !u!114 &114536773066054218
 MonoBehaviour:
   m_ObjectHideFlags: 1

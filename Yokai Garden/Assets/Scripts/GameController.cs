@@ -9,7 +9,7 @@ public class GameController : MonoBehaviour
     //public Text scoreText;                      //A reference to the UI text component that displays the player's score.
     //public GameObject gameOvertext;             //A reference to the object that displays the text which appears when the player dies.
 
-    //private int score = 0;                      //The player's score.
+    private int starsCollected = 0;             //The stars collected
     public bool gameOver = false;               //Is the game over?
     public float scrollSpeed = -1.5f;
 
@@ -36,18 +36,18 @@ public class GameController : MonoBehaviour
         }
     }
 
-    /*public void BirdScored()
+    public void starCount()
     {
-        //The bird can't score if the game is over.
+        //Can't shoot no stars if the game is over, sucker!
         if (gameOver)
             return;
-        //If the game is not over, increase the score...
-        score++;
+        //If the game is not over, increase the amount of stars collected...
+        starsCollected++;
         //...and adjust the score text.
-        scoreText.text = "Score: " + score.ToString();
+        //scoreText.text = "Score: " + score.ToString();
     }
 
-    public void BirdDied()
+    /*public void BirdDied()
     {
         //Activate the game over text.
         gameOvertext.SetActive(true);
