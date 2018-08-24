@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShootingStars : MonoBehaviour
 {
-
+    
     public GameObject starsPrefab; //the stars game object
     public int starPoolSize = 10; //10 stars
     public float starXMin = 0f;
