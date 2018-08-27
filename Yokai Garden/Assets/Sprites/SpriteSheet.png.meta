@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: e43afdb1a571ce6429a1ec37c8b13106
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: boothyokai
+    21300002: nekoyokai
+    21300004: taikoyokai
+    21300006: lamp
+    21300008: shintostick
+    21300010: dragonstatue
+    21300012: minecraftui
+    21300014: spiritcounter
+    21300016: starcounter
+    21300018: lampcounter
+    21300020: nekocounter
+    21300022: taikocounter
+    21300024: boothcounter
+    21300026: dragoncounter
+    21300028: wishtagcounter
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,7 +65,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -69,10 +84,439 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: boothyokai
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 525
+        width: 88
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1790e2cc0ccea4b44868ca8a5b28caff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nekoyokai
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 525
+        width: 102
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3e33b07fa191543844da04e332ae3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taikoyokai
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 521
+        width: 104
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256461c027a839241919803341d22b8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 330
+        width: 71
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b4beb71412af84ab2fd9a5ca3529a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shintostick
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 348
+        width: 52
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8db3c53c943434788ba5d9c04d6122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragonstatue
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 355
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545dcfc05315dc445b9c8902841679e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minecraftui
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 100
+        width: 220
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b13eb8af39512547bff241aa6958c08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiritcounter
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 149
+        width: 154
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b47fe99edd1294fbf6f2135e53b77f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starcounter
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 185
+        width: 69
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee9d1bcc2c907b4d9c83ca86ab4fc12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lampcounter
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 33
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaba9936961d3f742b332f4479de4203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nekocounter
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 36
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3222294a5c7f94884f76dbeda74341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taikocounter
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 32
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfd79c4b4bac5147afcefc6e31f9c80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boothcounter
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 34
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2eed2ea86209ec41a1bab904f230f19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragoncounter
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 33
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348b2ef5f542a96449a9e0f66670bdf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wishtagcounter
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 34
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db8a19ffc702b04cb2a41bec17834a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -192.84993, y: 206.67126}
+      - {x: -192.84993, y: 304.10315}
+      - {x: -98.124466, y: 304.10315}
+      - {x: -98.124466, y: 206.67126}
+    - - {x: -54.821396, y: 197.1987}
+      - {x: -54.821396, y: 274.33228}
+      - {x: 39.904083, y: 274.33228}
+      - {x: 39.904083, y: 197.1987}
+    - - {x: 76.44104, y: 198.55191}
+      - {x: 76.44104, y: 272.97906}
+      - {x: 184.69873, y: 272.97906}
+      - {x: 184.69873, y: 198.55191}
+    - - {x: -173.90483, y: 13.160645}
+      - {x: -173.90483, y: 178.2536}
+      - {x: -87.29869, y: 178.2536}
+      - {x: -87.29869, y: 13.160645}
+    - - {x: -38.582733, y: 22.63321}
+      - {x: -38.582733, y: 126.83121}
+      - {x: 18.252548, y: 126.83121}
+      - {x: 18.252548, y: 22.63321}
+    - - {x: 80.5007, y: 36.165405}
+      - {x: 80.5007, y: 145.7763}
+      - {x: 164.40039, y: 145.7763}
+      - {x: 164.40039, y: 36.165405}
+    - - {x: -124.56898, y: -213.44429}
+      - {x: -124.56898, y: -163.56703}
+      - {x: -81.693954, y: -164.44981}
+      - {x: 94.3613, y: -163.56703}
+      - {x: 94.3613, y: -213.44429}
+    - - {x: -95.437126, y: -164.00842}
+      - {x: -95.437126, y: -143.26302}
+      - {x: 57.284393, y: -143.26302}
+      - {x: 57.284393, y: -164.00842}
+    - - {x: -107.7961, y: -280.9772}
+      - {x: -107.7961, y: -248.31424}
+      - {x: -80.8712, y: -248.31424}
+      - {x: -80.8712, y: -280.9772}
+    - - {x: -71.601974, y: -278.32886}
+      - {x: -71.601974, y: -252.28676}
+      - {x: -45.559875, y: -252.28676}
+      - {x: -45.559875, y: -278.32886}
+    - - {x: -40.70456, y: -281.86}
+      - {x: -40.70456, y: -247.43146}
+      - {x: -6.717407, y: -247.43146}
+      - {x: -6.717407, y: -281.86}
+    - - {x: -0.9793091, y: -279.65305}
+      - {x: -0.9793091, y: -243.90031}
+      - {x: 28.593933, y: -243.90031}
+      - {x: 28.593933, y: -279.65305}
+    - - {x: 33.89064, y: -281.86}
+      - {x: 33.89064, y: -245.66588}
+      - {x: 60.374146, y: -245.66588}
+      - {x: 60.374146, y: -281.86}
+    - - {x: 68.76059, y: -277.44608}
+      - {x: 68.76059, y: -251.84537}
+      - {x: 92.15433, y: -251.84537}
+      - {x: 92.15433, y: -277.44608}
+    - - {x: -124.56898, y: -127.37291}
+      - {x: -124.56898, y: -104.42056}
+      - {x: -115.20054, y: -104.32451}
+      - {x: -115.70643, y: -118.19571}
+      - {x: -54.829086, y: -115.45534}
+      - {x: -54.829086, y: -127.37291}
     physicsShape: []
     bones: []
     spriteID: ef9a0497ffae0af4e8b952e5bd26453e
