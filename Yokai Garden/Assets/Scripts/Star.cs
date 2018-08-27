@@ -21,6 +21,8 @@ public class Star : MonoBehaviour
             starObject.AddForce(new Vector2(xForce, yForce));
             //Increase the amount of stars collected if the screen is clicked.  
             GameController.instance.starCount();
+
+            starObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
     }
 }
