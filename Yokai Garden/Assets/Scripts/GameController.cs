@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public static GameController instance;         //A reference to our game control script so we can access it statically.
-    //public Text scoreText;                      //A reference to the UI text component that displays the player's score.
+    public Text starScoreText;                      //A reference to the UI text component that displays the player's score.
     //public GameObject gameOvertext;             //A reference to the object that displays the text which appears when the player dies.
+    public bool waitForClick = false;
 
     private int starsCollected = 0;             //The stars collected
     public bool gameOver = false;               //Is the game over?
@@ -41,10 +42,22 @@ public class GameController : MonoBehaviour
         //Can't shoot no stars if the game is over, sucker!
         if (gameOver)
             return;
-        //If the game is not over, increase the amount of stars collected...
+
+        if (waitForClick == false)
+        {
+            waitForClick = true;
+            StartCoroutine(StarsCoroutine());
+        }        
+    }
+
+    IEnumerator StarsCoroutine()
+    {
+        yield return new WaitForSeconds(0.1f);
+
+        starScoreText.text = starsCollected.ToString();
         starsCollected++;
-        //...and adjust the score text.
-        //scoreText.text = "Score: " + score.ToString();
+
+        waitForClick = false;
     }
 
     /*public void BirdDied()

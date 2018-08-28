@@ -17,12 +17,10 @@ public class Star : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            //this shoots the star
             starObject.AddForce(new Vector2(xForce, yForce));
-            //Increase the amount of stars collected if the screen is clicked.  
-            GameController.instance.starCount();
-
             starObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+
+            GameController.instance.starCount();
         }
     }
 }
