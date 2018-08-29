@@ -7,10 +7,10 @@ public class GameController : MonoBehaviour
 {
     public static GameController instance;         //A reference to our game control script so we can access it statically.
     public Text starScoreText;                      //A reference to the UI text component that displays the player's score.
-    //public GameObject gameOvertext;             //A reference to the object that displays the text which appears when the player dies.
+    public GameObject gameOvertext;             //A reference to the object that displays the text which appears when the player dies.
     public bool waitForClick = false;
 
-    private int starsCollected = 0;             //The stars collected
+    public static int starsCollected = 0;             //The stars collected
     public bool gameOver = false;               //Is the game over?
     public float scrollSpeed = -1.5f;
 
@@ -54,17 +54,17 @@ public class GameController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
 
-        starScoreText.text = starsCollected.ToString();
         starsCollected++;
-
+        starScoreText.text = starsCollected.ToString();
+        
         waitForClick = false;
     }
 
-    /*public void BirdDied()
+    public void GameOver()
     {
         //Activate the game over text.
         gameOvertext.SetActive(true);
         //Set the game to be over.
         gameOver = true;
-    }*/
+    }
 }

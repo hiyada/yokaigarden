@@ -34,7 +34,8 @@ public class Star : MonoBehaviour
             starObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             starSFX.pitch = Random.Range(.95f, 1.05f);
             starSFX.volume = Random.Range(.9f, 1f);
-            starSFX.Play();
+            if (starSFX.isActiveAndEnabled)
+                starSFX.Play();
 
             GameController.instance.starCount();
         }
