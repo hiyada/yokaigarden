@@ -14,6 +14,15 @@ public class GameController : MonoBehaviour
     public bool gameOver = false;               //Is the game over?
     public float scrollSpeed = -1.5f;
 
+    public AudioSource = introMusic;
+    public AudioSource = loopMusic;
+
+    public void Start()
+    {
+        introMusic = GetComponent<AudioSource>();
+
+    }
+
 
     void Awake()
     {
@@ -62,9 +71,16 @@ public class GameController : MonoBehaviour
 
     public void GameOver()
     {
-        //Activate the game over text.
-        gameOvertext.SetActive(true);
-        //Set the game to be over.
-        gameOver = true;
+        //YokaiProgress winning = YokaiProgress.Instance;
+        //if (winning == true)
+        //{
+            gameOvertext.SetActive(true);
+            gameOver = true;
+        //}
+        /*if (winning == false)
+        {
+            gameOvertext.SetActive(false);
+            gameOver = false;
+        }*/
     }
 }

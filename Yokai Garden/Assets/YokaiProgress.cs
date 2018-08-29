@@ -18,6 +18,8 @@ public class YokaiProgress : MonoBehaviour
     const int ButtonAmount = 6;
     int buttonsPressed = 0;
 
+    public static YokaiProgress Instance { get; private set; }
+
     float buttonsPressedRatio01
     {
         get
@@ -32,6 +34,11 @@ public class YokaiProgress : MonoBehaviour
         {
             return this.progress >= 0.98f;  //mathf.approximately
         }
+    }
+
+    private void Awake()
+    {
+        YokaiProgress.Instance = this;
     }
 
     public void IncrementProgressBar()
@@ -49,10 +56,6 @@ public class YokaiProgress : MonoBehaviour
     private void Update()
     {
         this.progress = Mathf.SmoothDamp(this.progress, this.buttonsPressedRatio01, ref this.progress_velocity, ArrivalTimeForProgressBar);
-        //if (check == false)
-        //{
-        //    StartCoroutine(checkProgress());
-        //}
     }
 
     //IEnumerator checkProgress()
