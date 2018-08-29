@@ -14,18 +14,45 @@ public class GameController : MonoBehaviour
     public bool gameOver = false;               //Is the game over?
     public float scrollSpeed = -1.5f;
 
-    public AudioSource = introMusic;
-    public AudioSource = loopMusic;
+    public AudioSource source;
+    //public AudioSource loopMusic;
+
+
+    public AudioClip introMusic;
+    public AudioClip loopMusic;
 
     public void Start()
     {
-        introMusic = GetComponent<AudioSource>();
+
+        source = GetComponent<AudioSource>();
+
+        source.clip = introMusic;
+        source.Play();
+
+
+        StartCoroutine(MusicChange());
+        //introMusic = GetComponent<AudioSource>();
+
+    }
+
+
+    private IEnumerator MusicChange()
+    {
+        yield return new WaitForSeconds(1.5F);
+
+
+        source.Stop();
+        source.clip = loopMusic;
+        source.Play();
 
     }
 
 
     void Awake()
     {
+
+
+
         //If we don't currently have a game control...
         if (instance == null)
             //...set this one to be it...
